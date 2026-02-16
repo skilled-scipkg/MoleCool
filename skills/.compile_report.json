@@ -1,0 +1,95 @@
+{
+  "compiled_package_id": "molecool",
+  "evidence": {
+    "core_skills": [
+      "molecool-examples-and-tutorials",
+      "molecool-user-guide",
+      "molecool-getting-started",
+      "molecool-api-and-scripting",
+      "molecool-substitutions",
+      "molecool-build-and-install"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/molecool-examples-and-tutorials.md",
+      "skills/.evidence/molecool-user-guide.md",
+      "skills/.evidence/molecool-getting-started.md",
+      "skills/.evidence/molecool-api-and-scripting.md",
+      "skills/.evidence/molecool-substitutions.md",
+      "skills/.evidence/molecool-build-and-install.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc/source"
+    ],
+    "docs_only": false,
+    "notes": [
+      "No dedicated tests/ or test/ directory found in the repository.",
+      "Executable examples are in MoleCool/Examples and are referenced by Sphinx gallery config in doc/source/conf.py."
+    ],
+    "package_name": "MoleCool",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "MoleCool"
+    ],
+    "test_dirs": [],
+    "tutorial_dirs": [
+      "MoleCool/Examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/molecool-molecool",
+  "validation": {
+    "core_skills_checked": [
+      "molecool-substitutions",
+      "molecool-getting-started",
+      "molecool-user-guide",
+      "molecool-examples-and-tutorials",
+      "molecool-api-and-scripting",
+      "molecool-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/molecool-molecool/skills/molecool-substitutions/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/molecool-molecool/skills/molecool-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/molecool-molecool/skills/molecool-user-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/molecool-molecool/skills/molecool-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/molecool-molecool/skills/molecool-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/molecool-molecool/skills/molecool-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "molecool-index"
+    ],
+    "ok": false,
+    "skills_total": 7,
+    "source_links_total": 41,
+    "topic_skills": 6,
+    "warnings": []
+  }
+}

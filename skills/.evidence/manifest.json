@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "molecool-examples-and-tutorials",
+    "molecool-user-guide",
+    "molecool-getting-started",
+    "molecool-api-and-scripting",
+    "molecool-substitutions",
+    "molecool-build-and-install"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/molecool-examples-and-tutorials.md",
+    "skills/.evidence/molecool-user-guide.md",
+    "skills/.evidence/molecool-getting-started.md",
+    "skills/.evidence/molecool-api-and-scripting.md",
+    "skills/.evidence/molecool-substitutions.md",
+    "skills/.evidence/molecool-build-and-install.md"
+  ]
+}
